@@ -29,7 +29,7 @@ The bot jumps between a configured set of coins on the condition that it does no
 
 ## Binance Setup
 
-* Create a [Binance account](https://www.binance.com/hw_register.html).
+* Create a [Binance account](https://accounts.binance.com/en/register).
 * Enable Two-factor Authentication.
 * Create a new API key.
 * Get a cryptocurrency. If its symbol is not in the default list, add it.
@@ -46,8 +46,8 @@ Create a .ini file named `user.cfg` based off `.user.cfg.example`, then add your
 
 ### Integration with Telegram Bots
 
-You can integrate the bot with a Telegram bot that will notify you with log information. 
-This is done by creating a bot using Telegram's BotFather and inserting the Telegram Bot's TOKEN and the corresponding CHAT_ID in the configuration file. 
+You can integrate the bot with a Telegram bot that will notify you with log information.
+This is done by creating a bot using Telegram's BotFather and inserting the Telegram Bot's TOKEN and the corresponding CHAT_ID in the configuration file.
 For more information about Telegram bots refer to [Telegram's official documentation](https://core.telegram.org/bots).
 
 ### Run
@@ -56,7 +56,9 @@ For more information about Telegram bots refer to [Telegram's official documenta
 
 ### Docker
 
-`docker-compose up`
+```shell
+docker-compose up
+```
 
 # Join the Chat
 
@@ -68,5 +70,5 @@ For more information about Telegram bots refer to [Telegram's official documenta
 
 # Disclaimer
 
-The code within this repository comes with no guarantee. Run it at your own risk. 
+The code within this repository comes with no guarantee. Run it at your own risk.
 Do not risk money which you are afraid to lose. There might be bugs in the code - this software does not come with any warranty.
