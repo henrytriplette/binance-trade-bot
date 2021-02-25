@@ -10,3 +10,4 @@ user.cfg
 venv/
 crypto_trading.db
 *.bak
+.replit
