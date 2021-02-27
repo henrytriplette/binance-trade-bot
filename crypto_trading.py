@@ -43,7 +43,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 fh = logging.FileHandler('crypto_trading.log')
 fh.setLevel(logging.DEBUG)
 fh.setFormatter(formatter)
-logger.addHandler(fh)
+# logger.addHandler(fh)
 
 # logging to console
 ch = logging.StreamHandler()
