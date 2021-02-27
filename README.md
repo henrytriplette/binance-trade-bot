@@ -44,11 +44,15 @@ Run the following line in the terminal: `pip install -r requirements.txt`.
 
 Create a .ini file named `user.cfg` based off `.user.cfg.example`, then add your API keys and current coin.
 
-### Integration with Telegram Bots
+### Notifications with Apprise
 
-You can integrate the bot with a Telegram bot that will notify you with log information.
-This is done by creating a bot using Telegram's BotFather and inserting the Telegram Bot's TOKEN and the corresponding CHAT_ID in the configuration file.
-For more information about Telegram bots refer to [Telegram's official documentation](https://core.telegram.org/bots).
+Apprise allows the bot to send notifications to all of the most popular notification services available such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
+
+To set this up you need to create a apprise.yml file in the config directory.
+
+There is an example version of this file to get you started.
+
+If you are interedted in running a Telegram bot, more information can be found at [Telegram's official documentation](https://core.telegram.org/bots).
 
 ### Run
 
@@ -78,5 +82,5 @@ docker-compose up -d sqlitebrowser
 
 ## Disclaimer
 
-The code within this repository comes with no guarantee. Run it at your own risk.
+The code within this repository comes with no guarantee. Run it at your own risk. 
 Do not risk money which you are afraid to lose. There might be bugs in the code - this software does not come with any warranty.
